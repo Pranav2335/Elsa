@@ -257,11 +257,11 @@ Name - {}
 
 <code>{}</code>
 
-⚠️ <b>This file will be deleted from here within 10 minute as it has copyright!!!</b>
+⚠️ <b>ᴛʜɪꜱ ꜰɪʟᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇ ᴡɪᴛʜɪɴ 10 ᴍɪɴᴜᴛᴇꜱ ʙᴇᴄᴀᴜꜱᴇ ᴏꜰ ᴄᴏᴩyʀɪɢʜᴛ ɪꜱꜱᴜᴇꜱ.</b>
 
 <b>ᴊᴏɪɴ 👇</b>
 <b>@KOM_LINKS</b>
-<b>@kingofmovies003</b>
+<b>@KINGOFMOVIES003</b>
 <b>© Powered by {}</b>
 """
     SUR_TXT = """
