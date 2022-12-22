@@ -272,16 +272,16 @@ Name - {}
 """
 
     IMDB_TEMPLATE_TXT = """
-🔖 <b>ᴛɪᴛʟᴇ</b> :<a href={url}>{title}</a>
+<b>🔖ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
 
-🎭 <b>ɢᴇɴʀᴇs</b> : {genres}
-🎖 <b>ʀᴀᴛɪɴɢ</b> : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
+🎭 ɢᴇɴʀᴇs : {genres}
+🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
 
-📆 <b>ʏᴇᴀʀ</b> : {release_date}
-🗞 <b>ʟᴀɴɢᴜᴀɢᴇ</b> : {languages}
+📆 ʏᴇᴀʀ : {release_date}
+🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
 🍀Requested by🍀 : {message.from_user.mention}
 ✍️ Note: ミ★ 𝘛𝘩𝘪𝘴 𝘔𝘦𝘴𝘴𝘢𝘨𝘦 𝘸𝘪𝘭𝘭 𝘣𝘦 𝘈𝘶𝘵𝘰-𝘥𝘦𝘭𝘦𝘵𝘦𝘥 𝘢𝘧𝘵𝘦𝘳 𝘢 𝘍𝘦𝘸 𝘔𝘪𝘯𝘶𝘵𝘦𝘴 𝘵𝘰 𝘢𝘷𝘰𝘪𝘥 𝘊𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵 𝘪𝘴𝘴𝘶𝘦𝘴 ★彡⚠️
-©ɴᴀʀᴜᴛᴏ 
+©ɴᴀʀᴜᴛᴏ</b>
 """
 
     RESTART_TXT = """
