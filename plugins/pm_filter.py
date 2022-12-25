@@ -618,13 +618,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▣ ▢ ▢"
+            text="✯ ✭ ✭"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▢"
+            text="✯ ✯ ✭"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▣"
+            text="✯ ✯ ✯"
         )       
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -633,29 +633,30 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "aswin":
         buttons = [[
-             InlineKeyboardButton('ᴀᴜᴅ_ʙᴏᴏᴋ', callback_data='abook'),
-             InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='corona'),
-             InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='fun')
+             InlineKeyboardButton('🎙️ᴀᴜᴅɪᴏ ʙᴏᴏᴋ🎙️', callback_data='abook'),
+             InlineKeyboardButton('🦠ᴄᴏᴠɪᴅ🦠', callback_data='corona'),
+             InlineKeyboardButton('🎮ɢᴀᴍᴇs🎮', callback_data='fun')
          ], [
-             InlineKeyboardButton('ᴘɪɴɢ', callback_data='pings'),
-             InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='json'),
-             InlineKeyboardButton('sᴛɪᴄᴋ_ɪᴅ', callback_data='sticker')
+             InlineKeyboardButton('📶ᴘɪɴɢ📶', callback_data='pings'),
+             InlineKeyboardButton('❣️ᴊsᴏɴᴇ❣️', callback_data='json'),
+             InlineKeyboardButton('📮sᴛɪᴄᴋᴇʀ ɪᴅ📮', callback_data='sticker')
          ], [
-             InlineKeyboardButton('ᴡʜᴏɪs', callback_data='whois'),
-             InlineKeyboardButton('ᴜʀʟ_sʜᴏʀᴛ', callback_data='urlshort'),
-             InlineKeyboardButton('ɴᴇxᴛ', callback_data='aswins')  
+             InlineKeyboardButton('🤔ᴡʜᴏɪs🤔', callback_data='whois'),
+             InlineKeyboardButton('🤏ᴜʀʟ_sʜᴏʀᴛ🤏', callback_data='urlshort')
+  
         ], [
-            InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='help')         
+            InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('💥ɴᴇxᴛ💥', callback_data='aswins')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▣ ▢ ▢"
+            text="✯ ✭ ✭"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▢"
+            text="✯ ✯ ✭"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▣"
+            text="✯ ✯ ✯"
         )       
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
