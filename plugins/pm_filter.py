@@ -609,11 +609,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🎶sᴏɴɢ🎶', callback_data='song'),
             InlineKeyboardButton('🎤ᴛᴛs🎤', callback_data='tts')
         ], [
-            InlineKeyboardButton('ᴠɪᴅᴇᴏ', callback_data='video'),
-            InlineKeyboardButton('ᴛ_ɢʀᴀᴘʜ', callback_data='tele'),
-            InlineKeyboardButton('ɴᴇxᴛ', callback_data='aswin')    
+            InlineKeyboardButton('🎥ᴠɪᴅᴇᴏ🎥', callback_data='video'),
+            InlineKeyboardButton('🤎ᴛ_ɢʀᴀᴘʜ🤎', callback_data='tele')
+                
         ], [
-            InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='start')      
+            InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('💥ɴᴇxᴛ💥', callback_data='aswin')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
